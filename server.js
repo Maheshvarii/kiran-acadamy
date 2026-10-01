@@ -394,7 +394,7 @@ app.patch('/api/admin/courses/:id', ...requireAdmin, asyncRoute(async (req, res)
   res.json({ message: 'Course visibility updated.' });
 }));
 
-app.get('/', (_req, res) => res.sendFile(path.join(__dirname, 'web.html')));
+app.get('/', (_req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 app.get('/api/*', (_req, res) => sendError(res, 404, 'API route not found.'));
 
 app.use((error, _req, res, _next) => {

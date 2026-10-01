@@ -18,7 +18,7 @@ On first startup, the app seeds four sample courses, their syllabus modules, ref
 
 The administrator can sign in with `ADMIN_EMAIL` and `ADMIN_PASSWORD` to review enquiries, enable or disable student accounts, and add or publish courses. Students can register, request a course seat, see batch details and open course learning resources from their dashboard.
 
-The sample student testimonials and academy contact details in `web.html` are presentation content and should be replaced with verified academy information before public deployment. The included course fees and batch schedule are sample data.
+The sample student testimonials and academy contact details in `index.html` are presentation content and should be replaced with verified academy information before public deployment. The included course fees and batch schedule are sample data.
 
 ## API
 
